@@ -1,0 +1,63 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+@use "../../partials/fonts" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  color: $text;
+  margin: 0;
+  margin: 7rem 2rem 2rem 4rem;
+  // margin-left: 4rem;
+
+
+  &__container {
+    
+  }
+
+  &__date {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Finlandica';
+  }
+
+  &__portfolio {
+    font-size: 4rem;
+    font-family: 'Finlandica';
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+  }
+
+  &__name {
+    font-weight: 300;
+    font-family: monospace;
+    color: $text;
+    margin: 5rem 4rem 3rem 3rem;
+    // margin-left: 20rem;
+    // margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+
+  &__description {
+    color: $text;
+    font-family: monospace;
+    margin: 2rem 7rem 3rem 3rem;
+  }
+
+  &__button {
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
+
+  &__header-container {
+    position: absolute;
+    bottom: 3rem;
+  }
+}

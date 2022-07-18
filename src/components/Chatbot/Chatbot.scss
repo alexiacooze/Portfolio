@@ -1,0 +1,65 @@
+@use "../../partials/variables" as *;
+@use "../../partials/mixins" as *;
+
+.chat {
+  color: white;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2rem 5rem;
+  }
+
+  &__back-arrow {
+    height: 2rem;
+    margin: 2rem;
+  }
+
+  &__title-container {
+    
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__demo {
+    height: 40rem;
+    margin: 2rem 0rem;
+  }
+
+  &__demo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    text-decoration: underline white 1px solid;
+  }
+
+  &__description-title {
+    font-weight: 600;
+    margin:  2rem 5rem .2rem 0rem;
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+    margin:  0rem 5rem 3rem 0rem;
+  }
+
+  &__install {
+    font-weight: 600;
+    margin:  0rem 5rem 0rem 5rem;
+  }
+
+  &__install-description {
+    margin:  0rem 5rem 0rem 5rem;
+  }
+}

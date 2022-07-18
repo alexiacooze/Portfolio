@@ -1,0 +1,102 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+@use "../../partials/fonts" as *;
+
+.contact {
+  &__info-container {
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 60rem;
+    top: 10rem;
+  }
+
+  &__header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  &__heading {
+    color: $text;
+  }
+
+  &__name {
+    color: $text;
+    font-family: monospace;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__email {
+    color: $text;
+    position: relative;
+    left: 8rem;
+    font-family: monospace;
+  }
+
+  &__linkedin-container {
+    color: $text;
+    display: flex;
+    align-items: center;
+  }
+
+  &__linkedin-social {
+  height: 2rem;
+  position: relative;
+  left: 14.5rem;
+  top: 1rem;
+  }
+
+  &__github-social {
+    height: 3rem;
+    position: relative;
+    left: 15rem;
+    bottom: .4rem;
+  }
+
+  &__linked {
+    position: relative;
+   left: 14rem;
+    font-family: monospace;
+    margin: 1rem;
+  }
+
+  &__linked:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &__github-container {
+    color: $text;
+    display: flex;
+    
+    align-items: center;
+  }
+
+  &__github {
+    position: relative;
+   left: 15rem;
+    font-family: monospace;
+  }
+
+  &__github:hover {
+   font-weight: 600;
+   text-decoration: underline;
+   cursor: pointer;
+  }
+
+  &__linkedin-link {
+    display: flex;
+    color: white;
+
+  }
+
+  &__github-link {
+    display: flex;
+    color: white;
+  }
+}

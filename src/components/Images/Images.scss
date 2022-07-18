@@ -1,0 +1,37 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+@use "../../partials/fonts" as *;
+
+.images {
+  margin: 1rem 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+  }
+
+  &__description {
+    font-size: 1.1rem;
+    color: $text;
+  }
+
+  
+
+  &__download {
+    
+  }
+
+  &__instructions-title {
+    font-weight: bold;
+  }
+
+  &__instructions {
+    color: $text;
+  }
+
+  &__github {
+  }
+}

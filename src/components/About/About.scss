@@ -1,0 +1,52 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+@use "../../partials/fonts" as *;
+
+.about {
+  color: white;
+  margin-bottom: 4rem;
+
+  &__container {
+    padding: 1.5rem;
+  }
+
+  &__header-container {
+    margin: 4rem;
+  }
+
+  &__intro-container {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+  }
+
+  &__avatar {
+    border-radius: 50%;
+    width: 12rem;
+    padding-top: 3rem;
+  }
+
+  &__intro-header {
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-left: 5rem;
+    margin-top: 6rem;
+  }
+
+  &__paragraph {
+    color: $text;
+    margin: 0rem 10rem 2rem 21rem;
+  }
+
+  &__stack-title {
+    color: $text;
+    margin: 3rem 10rem 0rem 21rem;
+    font-weight: 600;
+  }
+
+  &__stack {
+    color: $text;
+    margin: 1rem 10rem 2rem 21rem;
+  }
+
+}
