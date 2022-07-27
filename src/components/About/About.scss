@@ -4,7 +4,10 @@
 
 .about {
   color: white;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  @include desktop {
+    margin-bottom: 4rem;
+  }
 
   &__container {
     padding: 1.5rem;
@@ -12,41 +15,66 @@
 
   &__header-container {
     margin: 4rem;
+
+    
   }
 
   &__intro-container {
     display: flex;
     align-items: center;
-    margin-left: 7rem;
+  
+    flex-direction: column;
+    @include desktop {
+      margin-left: 7rem;
+      flex-direction: row;
+    }
   }
 
   &__avatar {
     border-radius: 50%;
-    width: 12rem;
-    padding-top: 3rem;
+   width: 9em;
+   margin-bottom: 2rem;
+    @include desktop {
+      width: 12rem;
+      padding-top: 3rem;
+    }
   }
 
   &__intro-header {
     font-size: 3rem;
     text-transform: capitalize;
-    margin-left: 5rem;
-    margin-top: 6rem;
+    margin-bottom: 2rem;
+    @include desktop {
+      margin-left: 5rem;
+      margin-top: 6rem;
+    }
+    
   }
 
   &__paragraph {
     color: $text;
-    margin: 0rem 10rem 2rem 21rem;
+    margin: 1rem;
+   
+    @include desktop {
+      margin: 0rem 10rem 2rem 21rem;
+    }
   }
 
   &__stack-title {
     color: $text;
-    margin: 3rem 10rem 0rem 21rem;
     font-weight: 600;
+    margin: 1rem;
+    @include desktop {
+      margin: 3rem 10rem 0rem 21rem;
+    }
   }
 
   &__stack {
     color: $text;
-    margin: 1rem 10rem 2rem 21rem;
+    margin: 1rem;
+    @include desktop {
+      margin: 3rem 10rem 0rem 21rem;
+    }
   }
 
 }
