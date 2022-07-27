@@ -40,14 +40,7 @@ export default function AppleClone() {
         <div>
           <p className="apple__description-title">Description:</p>
           <p className="apple__description">
-            This project is a Clone website of Apple inc.© watches page. The
-            main purpose of this project is to display my overall front-end
-            design capabilities. I treated the project as if i were given a
-            mockup, with no pre-existing information/ additional aid. It is a
-            single page application, which includes minimal functionality.
-            Additional aspects such as hover effects were added to simulate
-            interaction with the website. The code base was designed in mind of
-            possibly building out the functionality in the future!
+          This project is a Clone website of Apple inc.© watches page. The main purpose of this project is to display my overall front-end design capabilities. I treated the project as if I were given a mockup, with no pre-existing information/ additional aid. It is a single-page application, which includes minimal functionality. Additional aspects such as hover effects were added to simulate interaction with the website. The code base was designed with the mind of possibly building out the functionality in the future!
           </p>
 
           <p className="apple__install">Code Installation:</p>
