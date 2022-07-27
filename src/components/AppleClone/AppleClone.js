@@ -18,7 +18,7 @@ export default function AppleClone() {
             <p className="apple__title">Apple Clone</p>
           </div>
           <div className="apple__demo-container">
-            <video width="750" height="500" controls>
+            <video width="750" height="500" controls className="apple__demo-video">
               <source
                 src={appleDemo}
                 className="apple__demo"
