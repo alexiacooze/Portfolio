@@ -13,32 +13,39 @@
   margin: 7rem 2rem 2rem 4rem;
   // margin-left: 4rem;
 
-
   &__container {
-    
   }
 
   &__date {
-    font-size: 2rem;
+    font-family: "Finlandica";
+    font-size: 1.5rem;
     padding-bottom: 2rem;
-    font-family: 'Finlandica';
+    @include desktop {
+      font-size: 2rem;
+    }
   }
 
   &__portfolio {
-    font-size: 4rem;
-    font-family: 'Finlandica';
+    font-family: "Finlandica";
     padding-bottom: 5rem;
     text-transform: uppercase;
+    font-size: 2rem;
+
+    @include desktop {
+      font-size: 4rem;
+    }
   }
 
   &__name {
     font-weight: 300;
     font-family: monospace;
     color: $text;
-    margin: 5rem 4rem 3rem 3rem;
-    // margin-left: 20rem;
-    // margin-bottom: 3rem;
-    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    font-size: 1rem;
+    @include desktop {
+      margin: 5rem 4rem 3rem 3rem;
+      font-size: 1.5rem;
+    }
   }
 
   &__description {
@@ -57,7 +64,12 @@
   }
 
   &__header-container {
-    position: absolute;
-    bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    @include desktop {
+      position: absolute;
+      bottom: 3rem;
+    }
   }
 }

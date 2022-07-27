@@ -19,7 +19,7 @@ export default class Projects extends Component {
         <div className="projects__options-container">
           <ul className="projects__item-container">
             <NavLink
-              to="/apple-clone"
+              to="/apple"
               style={{ textDecoration: "none", listStyleType: "none" }}
             >
               <li className="projects__item">
@@ -77,19 +77,3 @@ export default class Projects extends Component {
     );
   }
 }
-
-// {this.state.icons.map((image) => {
-//   return (
-//     <div key={image.id} className="projects__container">
-//       <NavLink to={`/images/${image.id}`}>
-//         <img
-//           className="projects__gallery"
-//           key={image.id}
-//           src={image.imgSrc}
-//           alt="projects"
-//         />
-//       </NavLink>
-//         {/* <p>{image.title}</p> */}
-//     </div>
-//   );
-// })}

@@ -60,9 +60,7 @@ export default function AppleClone() {
             downloading the codebase, running the front end browser, and backend
             server from your own computer.
           </p>
-          <img alt="github">
-            github: https://github.com/alexiacooze/Apple-Website-Dupe
-          </img>
+          <p className="apple__github-link">Github: https://github.com/alexiacooze/Apple-Website-Dupe</p>
         </div>
       </div>
     </section>
