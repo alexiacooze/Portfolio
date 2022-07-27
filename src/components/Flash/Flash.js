@@ -17,7 +17,7 @@ export default function Flash() {
           <p className="flash__title">Flash</p>
         </div>
         <div className="flash__demo-container">
-          <video width="750" height="500" controls>
+          <video width="750" height="500" controls className="flash__demo-video"> 
             <source src={flashDemo} className="flash__demo" type="video/mp4" />
           </video>
           <a

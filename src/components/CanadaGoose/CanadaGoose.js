@@ -18,7 +18,7 @@ export default function CanadaGoose() {
             <p className="goose__title">Canada Goose</p>
           </div>
           <div className="goose__demo-container">
-            <video width="750" height="500" controls>
+            <video width="750" height="500" controls className="goose__demo-video">
               <source
                 src={gooseDemo}
                 className="goose__demo"

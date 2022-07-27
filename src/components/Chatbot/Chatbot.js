@@ -17,7 +17,7 @@ export default function Chatbot() {
           <p className="chat__title">Chat Bot</p>
         </div>
         <div className="chat__demo-container">
-          <video width="750" height="500" controls>
+          <video width="750" height="500" controls className="chat__demo-video">
             <source src={chatDemo} className="chat__demo" type="video/mp4" />
           </video>
           <a
