@@ -5,12 +5,19 @@
 .projects {
   margin-bottom: 4rem;
   &__header-container {
-    margin: 4rem;
+    margin: 4rem 4rem 1rem 4rem;
+    @include desktop {
+      margin: 4rem;
+    }
   }
 
   &__item-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    @include desktop {
+      flex-direction: row;
+    }
   }
 
   &__options-container {
@@ -18,7 +25,10 @@
     justify-content: center; 
     flex-wrap: wrap;
     margin-left: 5.5rem;
-    margin-top: 7rem;
+    
+    @include desktop {
+      margin-top: 7rem;
+    }
   }
 
   &__name {
