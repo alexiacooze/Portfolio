@@ -27,7 +27,7 @@ export default function Chatbot() {
             rel="noreferrer"
           >
             <p className="chat__link">
-              Deployed website: https://apple-clone.herokuapp.com/
+              
             </p>
           </a>
         </div>

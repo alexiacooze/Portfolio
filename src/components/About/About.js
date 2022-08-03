@@ -14,7 +14,7 @@ export default function About() {
           <img className="about__avatar" src={avatar} alt="avatar" />
           <p className="about__intro-header">Welcome!</p>
         </div>
-        <p className="about__paragraph">
+        <p  className="about__paragraph">
         I am a full stack developer, based in Toronto, ON – focusing on front-end web development. I recently graduated from Queens University, where I majored in Health Sciences. After graduation, I subsequently attended BrainStation's Web Development boot camp. I am highly analytical, tenacious, and perpetually curious. I love to learn, and I am looking forward to working with a team that fosters innovation, and creativity – while I continue to advance my development skills! 
         </p>
 
