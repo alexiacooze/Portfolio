@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Header from "../Header/Header";
 import "../Projects/Projects.scss";
-// import avro from "../../assets/Images/avro.jpeg";
+import brainflix from "../../assets/Images/brainflix.png";
 import flash from "../../assets/Images/flash.png";
-import goose from "../../assets/Images/goose.png"
+import instock from "../../assets/Images/instock.png"
 import chat from "../../assets/Images/chat.png";
 import apple from "../../assets/Images/apple.png";
 
@@ -39,16 +39,16 @@ export default class Projects extends Component {
                 <img src={flash} alt="avro" className="projects__image"></img>
                 <p className="projects__name">Flash</p>
               </li>
-            </NavLink>
-            {/* <NavLink
-              to="/avro"
+            </NavLink>            
+            <NavLink
+              to="/instock"
               style={{ textDecoration: "none", listStyleType: "none" }}
             >
               <li className="projects__item">
-                <img src={avro} alt="avro" className="projects__image"></img>
-                <p className="projects__name">Avro</p>
+              <img src={instock} alt="InStcok" className="projects__image"></img>
+                <p className="projects__name">InStock</p>
               </li>
-            </NavLink> */}
+            </NavLink>
             <NavLink
               to="/chatbot"
               style={{ textDecoration: "none", listStyleType: "none" }}
@@ -63,14 +63,19 @@ export default class Projects extends Component {
               </li>
             </NavLink>
             <NavLink
-              to="/canada-goose"
+              to="/brainflix"
               style={{ textDecoration: "none", listStyleType: "none" }}
             >
               <li className="projects__item">
-              <img src={goose} alt="goose" className="projects__image"></img>
-                <p className="projects__name">Canada Goose</p>
+                <img
+                  src={brainflix}
+                  alt="brainflix"
+                  className="projects__image-bot"
+                ></img>
+                <p className="projects__name">Brianflix</p>
               </li>
             </NavLink>
+            
           </ul>
         </div>
       </section>

@@ -22,13 +22,13 @@ export default function Chatbot() {
           </video>
           <a
             style={{ textDecoration: "none" }}
-            href="https://apple-clone.herokuapp.com/"
+            href="https://cleverbot-client.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <p className="chat__link">
-              
-            </p>
+            {/* <p className="chat__link">
+            Deployed website: https://cleverbot-client.herokuapp.com/
+            </p> */}
           </a>
         </div>
         <p className="chat__description-title">Description:</p>
