@@ -18,7 +18,12 @@ export default function InStock() {
             <p className="instock__title">InStock</p>
           </div>
           <div className="instock__demo-container">
-            <video width="750" height="500" controls className="instock__demo-video">
+            <video
+              width="750"
+              height="500"
+              controls
+              className="instock__demo-video"
+            >
               <source
                 src={instockDemo}
                 className="instock__demo"
@@ -27,27 +32,48 @@ export default function InStock() {
             </video>
             <a
               style={{ textDecoration: "none" }}
-              href="https://instock-clone.herokuapp.com/"
+              href="https://instock-alexia.herokuapp.com/warehouses"
               target="_blank"
               rel="noreferrer"
             >
-              {/* <p className="instock__link">
-                Deployed website: https://instock-clone.herokuapp.com/
-              </p> */}
+              <p className="instock__link">
+                Deployed website:
+                https://instock-alexia.herokuapp.com/warehouses
+              </p>
             </a>
           </div>
         </div>
         <div>
           <p className="instock__description-title">Description:</p>
           <p className="instock__description">
-          This project is an platform that tracks warehouses and warehouse specific inventory. The application is a CRUD application, that uses both a client side, and server side. The server side allows for the user to create, add, delete and edit warehouses, and warehouse inventory. 
+            This project is an platform that tracks warehouses and warehouse
+            specific inventory. The application is a CRUD application, that uses
+            both a client side, and server side. The server side allows for the
+            user to create, add, delete and edit warehouses, and warehouse
+            inventory.
           </p>
 
-          <p className="instock__install">Code Installation:</p>
-          <p className="instock__install-description">
-            The repositories/ code can be found within github. 
+          <p className="instock__install">Code:</p>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://github.com/alexiacooze/InStock"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p className="instock__github-link">
+              Github client: https://github.com/alexiacooze/InStock
+            </p>
+          </a>
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://github.com/alexiacooze/InStock-Server"
+            target="_blank"
+            rel="noreferrer"
+          > 
+          <p className="instock__github-link">
+            Github server: https://github.com/alexiacooze/InStock-Server
           </p>
-          <p className="instock__github-link">Github: https://github.com/alexiacooze/instock-Website-Dupe</p>
+          </a>
         </div>
       </div>
     </section>
